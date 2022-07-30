@@ -1,5 +1,6 @@
 import React from "react"
+import '../style/global.scss';
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return <div className="main">Hello world!</div>
 }
