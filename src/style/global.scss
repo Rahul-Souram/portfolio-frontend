@@ -1,4 +1,13 @@
-.main{
-    background-color: aqua;
-    color: yellow;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+body {
+  background-color: #7660ab;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
 }
+@import "./header";
+@import "./menu";
